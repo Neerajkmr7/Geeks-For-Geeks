@@ -18,7 +18,7 @@ public class RotateMatrixInPlace {
 
 	private static void rotateMatrixInplace(int[][] matrix) {
 		// TODO Auto-generated method stub
-		int N = matrix.length;
+		//int N = matrix.length;
 		int length = matrix.length-1;
 
 		for(int i=0; i<=length/2; i++){
