@@ -38,6 +38,7 @@ int index = 0;
 	}
 //int index = Arrays.asList(in).indexOf(root.data);
 root.left = BuildTreeUtil(in,post,istartInd,index-1,pstartInd,pstartInd + index - (istartInd + 1));
+	    //poStart - length of inorder - last index if po
 root.right = BuildTreeUtil(in,post,index+1,iendInd,pstartInd + index- istartInd,pendInd-1);
 return root;
 
